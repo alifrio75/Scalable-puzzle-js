@@ -1,0 +1,29 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+	background-color: white;
+}
+
+.fullScreen {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+#turnSwitch p {
+	display: inline;
+}
+
+#game {
+	font-size: 50px;
+	height: 100vh;
+	display: flex;
+}
+
+.square {
+	display: flex;
+	float: left;
+}
+
+.square p {
+	margin: auto;
+}
